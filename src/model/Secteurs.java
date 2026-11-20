@@ -1,12 +1,15 @@
 package model;
-
+/* La classe Secteurs définit un secteur.
+ * Elle contient des attributs, un constructeur et 4 getters,*/
 public class Secteurs
 {
     // ATTRIBUTS
-    private String nomSecteur;
-    private String couleur;
-    private String sommets;
-    private String arcAssocie;
+    private String nomSecteur; // Identifiant du secteur
+    private String couleur; // Couleur attribuée par l'algorithme de Welsh-Powell
+    private String sommets; // Sommets appartenant au secteur
+    private String arcAssocie; // Arc associé au secteur
+
+    // CONSTRUCTEUR
     public Secteurs(String nomSecteur, String couleur, String sommets, String arcAssocie)
     {
         this.nomSecteur = nomSecteur;
@@ -33,5 +36,9 @@ public class Secteurs
     public String getArcAssocie()
     {
         return arcAssocie;
+    }
+    // SETTER n°1
+    public void setCouleur(String couleur) {
+        this.couleur = couleur;
     }
 }
