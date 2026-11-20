@@ -9,10 +9,10 @@ public class Main {
         Plan plan = new Plan();
 
         // 2. Chargement des sommets
-        plan.chargerPlan("sommets");
+        plan.chargerPlan("src/fichiers_textes/sommets.txt");
 
         // 3. Chargement des arcs
-        plan.chargerPlan("arcs");
+        plan.chargerPlan("src/fichiers_textes/arcs.txt");
         // TEST 1 : Sommets
         System.out.println("=== TEST DES SOMMETS ===");
 
