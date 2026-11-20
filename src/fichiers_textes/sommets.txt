@@ -1,0 +1,50 @@
+# id;nom;altitude_m;statut
+S01;Front de neige Aussois;1530;OFFICIEL
+S02;Arrivee Grand Jeu;2200;OFFICIEL_SITE
+S03;Arrivee Armoise;2700;OFFICIEL_PLAN
+S04;Secteur Fournache;;INTERPRETATION_PLAN
+S05;Plan Sec;;OFFICIEL_NOM_ALTITUDE_INCONNUE
+S06;Depart Eterlou;;INTERPRETATION_PLAN
+S07;Arrivee Eterlou;;INTERPRETATION_PLAN
+S08;Jonction Montana;;INTERPRETATION_PLAN
+S09;Jonction Paerot;;INTERPRETATION_PLAN
+S10;Jonction Cochette;;INTERPRETATION_PLAN
+S11;Jonction Setives;;INTERPRETATION_PLAN
+S12;Jonction Choulliere;;INTERPRETATION_PLAN
+S13;Jonction Cotes;;INTERPRETATION_PLAN
+S14;Jonction Ortet;;INTERPRETATION_PLAN
+S15;Bas secteur debutants;;INTERPRETATION_PLAN
+S16;Jonction Col Chamois;;INTERPRETATION_PLAN
+S17;Jonction Balmes;;INTERPRETATION_PLAN
+S18;Jonction Bellecote;;INTERPRETATION_PLAN
+S19;Depart TK Charriere;;INTERPRETATION_PLAN
+S20;Arrivee TK Charriere;;INTERPRETATION_PLAN
+S21;Depart TK Muliniere;;INTERPRETATION_PLAN
+S22;Arrivee TK Muliniere;;INTERPRETATION_PLAN
+M001;Point intermediaire fictif Cotes A008;;FICTIF
+M002;Point intermediaire fictif Cotes A009;;FICTIF
+M003;Point intermediaire fictif Ortet A010;;FICTIF
+M004;Point intermediaire fictif Ortet A011;;FICTIF
+M005;Point intermediaire fictif Choulliere A012;;FICTIF
+M006;Point intermediaire fictif Choulliere A013;;FICTIF
+M007;Point intermediaire fictif Cochette A014;;FICTIF
+M008;Point intermediaire fictif Cochette A015;;FICTIF
+M009;Point intermediaire fictif Setives A016;;FICTIF
+M010;Point intermediaire fictif Setives A017;;FICTIF
+M011;Point intermediaire fictif Paerot A018;;FICTIF
+M012;Point intermediaire fictif Paerot A019;;FICTIF
+M013;Point intermediaire fictif Montana A020;;FICTIF
+M014;Point intermediaire fictif Bellecote A021;;FICTIF
+M015;Point intermediaire fictif Bellecote A022;;FICTIF
+M016;Point intermediaire fictif Balmes A023;;FICTIF
+M017;Point intermediaire fictif Balmes A024;;FICTIF
+M018;Point intermediaire fictif Col A025;;FICTIF
+M019;Point intermediaire fictif Chamois A026;;FICTIF
+M020;Point intermediaire fictif Fournache A027;;FICTIF
+M021;Point intermediaire fictif Stella A028;;FICTIF
+M022;Point intermediaire fictif Armoise A029;;FICTIF
+M023;Point intermediaire fictif Le Panoramic A030;;FICTIF
+M024;Point intermediaire fictif Cotes A031;;FICTIF
+M025;Point intermediaire fictif Ortet A032;;FICTIF
+M026;Point intermediaire fictif Charriere A033;;FICTIF
+M027;Point intermediaire fictif Muliniere A034;;FICTIF
