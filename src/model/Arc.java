@@ -10,11 +10,12 @@ public abstract class Arc {
     private boolean etat; //ouvert ou fermé
 
     // CONSTRUCTEUR
-    public Arc(String idArc, Sommet depart, Sommet arrivee, double distance) {
+    public Arc(String idArc, Sommet depart, Sommet arrivee, double distance,boolean etat) {
         this.idArc = idArc;
         this.depart = depart;
         this.arrivee = arrivee;
         this.distance = distance;
+        this.etat = true;
     }
 
     //GETTER n°1
