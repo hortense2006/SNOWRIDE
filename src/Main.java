@@ -17,9 +17,7 @@ public class Main {
         System.out.println("=== TEST DES SOMMETS ===");
 
         for (Sommet s : plan.getPlanAussois().values()) {
-            System.out.println(
-                    s.getId() + " - " + s.getNom() + " - Altitude : " + s.getAltitude() + " m"
-            );
+            System.out.println(s.getId() + " - " + s.getNom() + " - Altitude : " + s.getAltitude() + " m");
         }
 
         // TEST 2 : Arcs
