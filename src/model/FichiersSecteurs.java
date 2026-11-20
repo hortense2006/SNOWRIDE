@@ -36,7 +36,7 @@ public class FichiersSecteurs
                 if (ligne.trim().isEmpty() || ligne.startsWith("#")) {
                     continue;
                 }
-                String[] parts = ligne.split(";");
+                String[] parts = ligne.split(";",-1);
                 if (parts.length != 4) {
                     System.out.println("Ligne ignorée : format invalide");
                     continue;
