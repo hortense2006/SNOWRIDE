@@ -64,8 +64,8 @@ public class SecteursModel {
         for (Arc arc : plan.getArcs().values())
         {
 
-            String s1 = arc.getDepart().getNom();
-            String s2 = arc.getArrivee().getNom();
+            String s1 = arc.getDepart().getId();
+            String s2 = arc.getArrivee().getId();
 
             String q1 = appartenance.get(s1);
             String q2 = appartenance.get(s2);

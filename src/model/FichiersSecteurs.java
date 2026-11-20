@@ -47,7 +47,7 @@ public class FichiersSecteurs
                 String arcs = parts[3].trim();
 
                 Secteurs secteur = new Secteurs(nomSecteur,couleur,sommets,arcs);
-                secteurs.put(nomSecteur,secteur); // couleur comme clé, secteur comme valeur
+                secteurs.put(nomSecteur,secteur); // nomSecteur comme clé, secteur comme valeur
             }
         }
         catch (IOException e) {

@@ -1,6 +1,8 @@
 package model;
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Map;
 
 public class Sommet {
     private String nom;
@@ -43,8 +45,12 @@ public class Sommet {
     public void retirerArcSortant(Arc arc) {
         this.arcsSortants.remove(arc);
     }
-
+    // METHODE n°3
     public String toString() { //afficher détail
         return "Sommet: " + nom + "(altitude : " + altitude + ")";
+    }
+    // METHODE n°4
+    public static Map<String,Sommet> chargerSommets(String nomFichier) throws IOException {
+        return null;
     }
 }

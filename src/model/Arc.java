@@ -1,4 +1,8 @@
 package model;
+
+import java.io.IOException;
+import java.util.HashMap;
+
 /*Le fichier Arc représente les liaisons, une succession d'arcs peut représenter une piste, ou une remontée*/
 public abstract class Arc {
 
@@ -15,7 +19,7 @@ public abstract class Arc {
         this.depart = depart;
         this.arrivee = arrivee;
         this.distance = distance;
-        this.etat = true;
+        this.etat = etat;
     }
 
     //GETTER n°1
@@ -41,5 +45,10 @@ public abstract class Arc {
     // GETTER n°6
     public void setEtat(boolean etat) {
         this.etat = etat;
+    }
+
+    // METHODE n°1
+    public static HashMap<String,Arc> chargerArcs(String nomFichier) throws IOException{
+        return null;
     }
 }
