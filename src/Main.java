@@ -1,10 +1,9 @@
 import model.*;
 import java.util.Map;
 public class Main {
-    public static void main(String[] args)
-    {
-       /* TEST DU PACKAGE MODEL
-       // 1. Création du plan
+    public static void main(String[] args) {
+        /* TEST DU PACKAGE MODEL*/
+        // 1. Création du plan
         Plan plan = new Plan();
 
         // 2. Création des sommets
@@ -124,6 +123,6 @@ public class Main {
                 "Arc A3 : " + plan.getArc("A3").getIdArc()
         );
 
-        System.out.println("\n=== FIN DES TESTS ===");*/
+        System.out.println("\n=== FIN DES TESTS ===");
     }
 }
