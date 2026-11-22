@@ -1,5 +1,6 @@
 # id;infrastructure;type;depart;arrivee;distance_m;etat;difficulte;statut
 # DISTANCES PISTES INCONNUES : ne pas utiliser pour Dijkstra pondere tant que non renseignees.
+# Arcs A035-A048 fictifs ajoutes pour relier les nouveaux sommets.
 A001;Grand Jeu;REMONTEE;S01;S02;;true;;TRACE_APPROXIMATIF
 A002;Armoise;REMONTEE;S02;S03;;true;;TRACE_APPROXIMATIF
 A003;Fournache;REMONTEE;S04;S03;;true;;TRACE_APPROXIMATIF
@@ -61,3 +62,18 @@ A033a;Charriere;PISTE;S20;M026;;true;VERTE;DECOUPAGE_ARBITRAIRE
 A033b;Charriere;PISTE;M026;S19;;true;VERTE;DECOUPAGE_ARBITRAIRE
 A034a;Muliniere;PISTE;S22;M027;;true;VERTE;DECOUPAGE_ARBITRAIRE
 A034b;Muliniere;PISTE;M027;S21;;true;VERTE;DECOUPAGE_ARBITRAIRE
+A035;Acces sanitaires Grand Jeu;PISTE;S02;S23;;true;VERTE;FICTIF
+A036;Acces salle hors-sac Grand Jeu;PISTE;S23;S24;;true;VERTE;FICTIF
+A037;Acces restaurant panorama;PISTE;S24;S25;;true;VERTE;FICTIF
+A038;Retour piste panorama;PISTE;S25;S08;;true;BLEUE;FICTIF
+A039;Acces accueil debutants;PISTE;S20;S26;;true;VERTE;FICTIF
+A040;Retour front de neige;PISTE;S26;S01;;true;VERTE;FICTIF
+A041;Acces sanitaires Foret;PISTE;S12;S27;;true;VERTE;FICTIF
+A042;Acces restaurant Foret;PISTE;S27;S28;;true;VERTE;FICTIF
+A043;Retour secteur debutants;PISTE;S28;S15;;true;BLEUE;FICTIF
+A044;Acces salle hors-sac Fournache;PISTE;S04;S29;;true;VERTE;FICTIF
+A045;Acces sanitaires Fournache;PISTE;S29;S30;;true;VERTE;FICTIF
+A046;Belvedere;PISTE;S08;S31;;true;BLEUE;FICTIF
+A047;Retour belvedere;PISTE;S31;S11;;true;BLEUE;FICTIF
+A048;Acces remontee belvedere;PISTE;S15;S32;;true;VERTE;FICTIF
+A049;Remontee belvedere;REMONTEE;S32;S31;;true;;FICTIF
